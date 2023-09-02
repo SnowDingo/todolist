@@ -1,5 +1,6 @@
 
 import './App.css';
+import TODOForm from './TODOForm';
 
 import "./todolist"
 import Todolist from './todolist';
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <header className='title'>Keepdia</header>
       <body>
-          <Todolist />
+          <TODOForm />
       </body>
     </div>
   );
